@@ -1,0 +1,19 @@
+{
+  "name": "web-wook-tuya",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.806.0",
+    "@tuya/tuya-connector-nodejs": "^2.1.2",
+    "axios": "^1.9.0",
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "vercel": "^41.7.4"
+  }
+}
